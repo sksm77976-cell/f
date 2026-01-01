@@ -1,8 +1,3 @@
-if queue_on_teleport then
-    queue_on_teleport([[
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/sksm77976-cell/f/main/f.lua"))()
-    ]])
-end 
 
 
 -- Script: Payaso Más Valioso + FIREBASE (Server Info)
