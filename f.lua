@@ -1,14 +1,4 @@
--- AUTO REEXECUTE ON TELEPORT (multi-executor)
-local queue =
-    queue_on_teleport or
-    syn and syn.queue_on_teleport or
-    fluxus and fluxus.queue_on_teleport
 
-if queue then
-    queue([[
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/sksm77976-cell/f/main/f.lua"))()
-    ]])
-end
 
 -- Script: Payaso Más Valioso + FIREBASE (Server Info)
 local clownBillboards = {}
